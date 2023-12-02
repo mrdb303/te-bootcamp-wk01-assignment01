@@ -3,9 +3,9 @@
 ## Build out the website
 
 ### Task
-
+<br>
 Build out a website using the supplied design assets and style guide.
-  
+<br>
 
 ### Areas to cover
 
@@ -14,7 +14,7 @@ Build out a website using the supplied design assets and style guide.
 - Implement both absolute & fixed positioning
 - Utilise flexbox functionality
 - Follow the supplied design notes and example
-  
+<br>
 
 ### Design notes, additions and changes
 
