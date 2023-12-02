@@ -3,10 +3,10 @@
 ## Build out the website
 
 ### Task
-<br>
+
 Build out a website using the supplied design assets and style guide.
 <br>
-
+<br>
 ### Areas to cover
 
 - Create the HTML, CSS structure and layout
