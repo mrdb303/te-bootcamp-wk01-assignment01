@@ -1,0 +1,157 @@
+*{ box-sizing: border-box;}
+
+
+body { 
+  background-color: black;
+  margin: 0;
+}
+
+
+.full-height {
+  height: 100vh;
+  border: 1px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+
+h1, h2, h3, h4, p {
+  font-family: "Roboto", arial, sans-serif;
+  color: #ccc;
+}
+
+
+h1 {
+  font-size: 2em;
+  letter-spacing: 0.08em;
+}
+
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 0.85em;
+  letter-spacing: 0.04em;
+}
+
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+  letter-spacing: 0.08em;
+}
+
+
+h4 {
+  font-size: 0.8em;
+  margin-bottom: 0.3em;
+  letter-spacing: 0.08em;
+}
+
+
+p {
+  font-size: 1em;
+  color: grey;
+}
+
+
+p.extra-small {
+  font-size: 0.7em;
+}
+
+
+.lg-text{
+  position: absolute;
+  top: 57%;
+  left: 2.5%;
+  z-index: 2;
+}
+
+
+.eclipse { background-image: url(../images/eclipse.jpg);}
+
+.galaxy { background-image: url(../images/galaxy.jpg);}
+
+.landscape { background-image: url(../images/landscape.jpg);}
+
+
+nav {
+  position: fixed;
+  left: 2.5%;
+  top: 2%;
+  width: 38em;
+  display: flex;
+  z-index: 1;
+}
+
+
+#align-nav {
+  display: flex;
+  width: 100%;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15.5em;
+  height: 4.5em;
+  align-items: center;
+}
+
+
+.box:first-child {
+  height: 4.3em;
+  width: 17em;
+  justify-content: flex-start;
+}
+
+
+a { text-decoration: none; }
+
+
+a:hover { 
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+
+a:hover h4 {
+  color: white;
+}
+
+
+#button-lg1, #button-lg2, #button-lg3 {
+  color: white;
+  width: 20em;
+  height: 4em;
+  background-color: transparent;
+  text-align: left;
+  padding-left: 2.8em;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  letter-spacing: 0.18em;
+  transition-duration: 0.4s;
+}
+
+
+#button-lg1:hover, #button-lg2:hover,#button-lg3:hover {
+  background-color: white;
+  color: #1d1d1d;
+}
+
+
+footer {
+  width: 100%;
+  height: 4em;
+  color: white;
+  background-color: black;
+  border: 0;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 1.5em;
+  display: block;
+}
