@@ -1,6 +1,11 @@
 *{ box-sizing: border-box;}
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body { 
   background-color: black;
   margin: 0;
@@ -66,6 +71,7 @@ p.article {
   color: #ccc;
 }
 
+
 .lg-text{
   position: absolute;
   top: 57%;
@@ -107,6 +113,7 @@ nav {
 }
 
 
+/* Extra height needed for alignment of larger text */
 .box:first-child {
   height: 4.3em;
   width: 17em;
