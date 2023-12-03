@@ -28,6 +28,6 @@ The original font used was Helvetica, which is not a font that I have a licence 
 
 Small note added at the bottom of the footer to demonstrate the use of the `<sup>` tag on the asterisk symbol.
 
-Implemented a JavaScript example of adding an event listener on the three 'READ MORE' buttons. When a button is clicked, the id of the button element is logged to the console. This isn't necessary, but serves as example code to demonstrate looping, const variables, assigning values from the document object model and event listeners. 
+Implemented a JavaScript example of adding an event listener on the three 'READ MORE' buttons. When a button is clicked extra text content is displayed. The id of the button element is also logged to the console. This isn't necessary, but serves as example code to demonstrate looping, const variables, assigning values from the document object model and event listeners. 
 
 Added some subtle letter spacing to improve the design. 
